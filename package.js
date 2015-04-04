@@ -19,7 +19,7 @@ Package.onUse(function (api) {
 		'dferber:ti',
 		'richsilv:stampit'
 	], 'client');
-	api.use(['bdd'], ['client', 'server']);
+	api.use(['respondly:bdd'], ['client', 'server']);
 	api.versionsFrom('1.0.4.1');
 	api.addFiles([
 		'lib/head.html',
