@@ -2,6 +2,9 @@
 
 A visual testing tool for [Flow Components](https://github.com/meteorhacks/flow-components).
 
+This tool lets you test Flow Components visually.
+Inspired by [Respondly's UI Harness](https://github.com/Respondly/meteor-ui-harness).
+
 ## Guide
 
 
