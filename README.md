@@ -1,23 +1,24 @@
+## !!NOTICE!!
+This package is still WIP. I will update the information once the package is ready.
+
+
 # Flow Components Harness
 
 A visual testing tool for [Flow Components](https://github.com/meteorhacks/flow-components).
-
-This tool lets you test Flow Components visually.
 Inspired by [Respondly's UI Harness](https://github.com/Respondly/meteor-ui-harness).
 
-## Guide
 
+## Guide
+While developing your own [Flow Components](https://github.com/meteorhacks/flow-components) you may want to test them in an isolated context.
+This package lets you do exactly that.
 
 ## Setup
 
-Create a separate package for each component you want to test.
-The separate package will contain the tests for the component under test.
+Create a separate package for each component you want to test, or test multiple components within one package.
 
 Make sure the package containing the tests
  - is set to `debugOnly: true`.
  - registers a dependency on this package.
-
-
 
 ## Usage
 
@@ -27,17 +28,17 @@ Load the component in the block `before` with `this.load(..)`.
 
 ### Methods within Spec
 
-`this.subtitle(String)`
-`this.style(Object)`
-`this.load(String, Object, Object)`
-`this.setOption(String, Literal|Object|Function)`
+- `this.subtitle(String)`
+- `this.style(Object)`
+- `this.load(String, Object, Object)`
+- `this.setOption(String, Literal|Object|Function)`
 
 
 ### It
 
-`it.radio`
-`it.boolean`
-`it.text`
+- `it.radio`
+- `it.boolean`
+- `it.text`
 
 
 
